@@ -10,6 +10,6 @@ Chia Hsuan Su:
 - unique name: rexchsu
 - Github ID: rexchsu
 
-Yaying Wnag:
+Yaying Wang:
 - unique name: yaying
 - Github ID: yayingwang
