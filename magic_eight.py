@@ -1,6 +1,7 @@
 import random
 
 def question():
+<<<<<<< HEAD
     response = input("What is your question?")
 
 # B - pick a random answer
@@ -14,3 +15,15 @@ answer_c_list =["Reply hazy, try again.","Ask  again later.","Better not tell yo
 
 answer_c_item = random.choice(answer_c_list)
 print(answer_c_item)
+=======
+    not_quit = True
+    response = input("what is your question?")
+
+    if response != "quit":
+        while not_quit == True:
+            if response[-1] == "?":
+                not_quit = False
+            else:
+                print("I'm sorry, I can only answer questions.")
+                response = input("what is your question?")
+>>>>>>> check_question
